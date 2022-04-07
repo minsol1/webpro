@@ -1,0 +1,22 @@
+/* 속성 선택자 */
+input[type="text"]{
+    background:red;
+}
+input[type="password"]{
+    background:blue;
+}
+
+/* 반응선택자 */
+/* 커서를 올렸을때 */
+h1:hover{
+    color: red;
+}
+/* 클릭했을때 */
+h1:active{
+    color: blue;
+}
+/* 상태선택자 */
+/* :checked, :focus, :enabled, :disabled */
+
+/* 구조선택자 */
+/* :first-child, :last-child, :nth-child(수열), :nth-last-child(수열) */
